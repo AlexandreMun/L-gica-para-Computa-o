@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="text">
+      <p>Em todos os casos testados de tabela verdade funcionou.</p>
+      <p>A Consequência Lógica não está funcionando, vai estar comentado a parte que tentamos fazer.</p>
+      <p>
+       ~ - Negação <br>
+       & - Conjunção <br>
+       # - Disjunção <br>
+       > - Implicação <br>
+       <-> - Consequência Lógica
+      </p>
+      <p>Exemplo: ~(p>q)#(p>q)</p>
+      <p>Exemplo: ~(p>q)<->p>q</p>
+    </div>
+
+    <div class="proposicao">
+      <input type="text" placeholder="Digite sua proposição aqui" id="prop">
+      <button id="btn-tabela">Gerar Tabela</button>
+    </div>
+
+    <div id="tabela-verdade"></div>
+    <div id="tabela-verdade2"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

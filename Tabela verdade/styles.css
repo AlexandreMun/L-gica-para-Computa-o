@@ -1,0 +1,16 @@
+.tabela-verdade, .tabela-verdade2 table {
+  border-collapse: collapse;
+  color: #555555;
+  text-align: center;
+  margin: 10px 20px 20px;
+}
+
+.tabela-verdade, .tabela-verdade2 table span {
+  padding: 20px;
+}
+
+.tabela-verdade, .tabela-verdade2 table,
+th,
+td {
+  border: 1px solid black;
+}
